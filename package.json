@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "node buildArgs && tsc args -D && node buildIndex && tsc index -D"
+  },
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
