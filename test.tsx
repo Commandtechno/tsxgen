@@ -28,6 +28,10 @@ function createElement(
   ...children: any[]
 ) {
   if (children.length) {
+    if (children.length === 1) {
+      children = children[0];
+    }
+
     props ??= {};
     props.body ??= children;
     props.members ??= children;

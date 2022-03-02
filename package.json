@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node buildArgs && tsc args -D && node buildIndex && tsc index -D"
+    "build": "ts-node --transpile-only build/args && ts-node --transpile-only build/index",
+    "test": "ts-node --transpile-only test.tsx"
   },
   "dependencies": {
     "typescript": "^4.6.2"

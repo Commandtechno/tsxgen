@@ -1,8 +1,9 @@
-const { writeFileSync } = require("fs");
-const { resolve } = require("path");
-const ts = require("typescript");
+import * as ts from "typescript";
 
-const { ArgKeys } = require("./args");
+import { writeFileSync } from "fs";
+import { resolve } from "path";
+
+import { ArgKeys } from "../args";
 
 const path = require.resolve("typescript").replace(".js", ".d.ts");
 const file = ts
