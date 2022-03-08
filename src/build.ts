@@ -102,4 +102,4 @@ function walk(node) {
 }
 
 walk(file);
-writeFileSync("index.ts", output);
+writeFileSync("src/index.ts", output);

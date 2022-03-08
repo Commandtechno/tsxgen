@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "outDir": "build",
     "declaration": true,
 
     "jsx": "react",
     "jsxFactory": "tsxgen",
     "jsxFragmentFactory": "Fragment"
   },
-  "files": ["index.ts", "test.tsx"]
+  "files": ["src/index.ts"]
 }

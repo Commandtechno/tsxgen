@@ -10,7 +10,7 @@ import tsxgen, {
   VariableDeclaration,
   VariableDeclarationList,
   VariableStatement
-} from "./index";
+} from ".";
 
 console.log(
   render(
