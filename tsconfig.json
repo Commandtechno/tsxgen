@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "declaration": true,
+
     "jsx": "react",
     "jsxFactory": "tsxgen",
     "jsxFragmentFactory": "Fragment"
   },
-  "files": ["test.tsx"]
+  "files": ["index.ts", "test.tsx"]
 }

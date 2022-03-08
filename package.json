@@ -1,10 +1,10 @@
 {
   "name": "tsxgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node --transpile-only build.ts",
-    "test": "tsc && node test"
+    "build": "ts-node --transpile-only build.ts && tsc",
+    "test": "npm run build && node test.js"
   },
   "dependencies": {
     "typescript": "^4.6.2"

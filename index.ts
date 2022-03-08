@@ -17,7 +17,7 @@ export function render(node: ts.Node) {
     ts.ScriptKind.TS
   );
 
-  const printer = ts.createPrinter({newLine: ts.NewLineKind.LineFeed});
+  const printer = ts.createPrinter();
   return printer.printNode(ts.EmitHint.Unspecified, node, file);
 }
 
